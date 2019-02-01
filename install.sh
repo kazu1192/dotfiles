@@ -9,7 +9,7 @@ dot_install() {
 
   echo "Downloading dotfiles..."
   mkdir -p $DOT_DIRECTORY
-
+  git clone --recursive $REMOTE_URL $DOT_DIRECTORY
 
 }
 
