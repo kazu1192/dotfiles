@@ -1,0 +1,6 @@
+*~
+.config/*
+
+# whitelist
+!.config/zsh
+!.config/nvim
