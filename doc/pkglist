@@ -6,6 +6,8 @@ automake
 bash
 binutils
 bison
+bluez
+bluez-utils
 bzip2
 coreutils
 cryptsetup
@@ -36,6 +38,8 @@ git
 glibc
 grep
 gzip
+i3-gaps
+id3v2
 inetutils
 iproute2
 iputils
@@ -57,6 +61,7 @@ make
 man-db
 man-pages
 mdadm
+mpc
 mplayer
 namcap
 nano
@@ -80,7 +85,9 @@ psmisc
 pulseaudio
 pv
 python
+python-neovim
 python2
+python2-neovim
 reiserfsprogs
 rofi
 rsnapshot
@@ -93,6 +100,7 @@ sxiv
 sysfsutils
 systemd-sysvcompat
 tar
+termite
 texinfo
 the_silver_searcher
 tree

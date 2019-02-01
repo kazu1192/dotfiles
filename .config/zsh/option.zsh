@@ -3,6 +3,8 @@ HISTFILE=~/.config/zsh/.histfile
 HISTSIZE=100000
 SAVEHIST=100000
 
+bindkey -v
+
 setopt auto_menu
 setopt auto_pushd
 setopt correct
@@ -30,3 +32,13 @@ zstyle ':completion:*:sudo:*' command-path /usr/local/sbin /usr/local/bin \
 zstyle ':completion:*:processes' command 'ps x -o pid,s,args'
 
 zmodload -i zsh/complist
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias cl='clear'
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'

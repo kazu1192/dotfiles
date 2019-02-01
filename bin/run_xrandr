@@ -1,4 +1,0 @@
-#! /bin/sh
-xrandr --output DP-3 --auto
-xrandr --output DP-5 --right-of DP-3 --rotate right --auto
-xrandr --output HDMI-0 --left-of DP-3 --auto

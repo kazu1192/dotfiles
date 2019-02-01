@@ -10,12 +10,8 @@ dot_install() {
   echo "Downloading dotfiles..."
   mkdir -p $DOT_DIRECTORY
   git clone --recursive $REMOTE_URL $DOT_DIRECTORY
-
-}
-
-init() {
-  # Todo
-  echo ""
+  
+  echo Download dotfiles complete.
 }
 
 link() {
@@ -28,7 +24,17 @@ link() {
     ln -snfv $DOT_DIRECTORY/$f $HOME/$f
   done
 
-  echo $(tput setaf 2)Deploy dotfiles complete. ✔︎$(tput sgr0)
+  echo Deploy dotfiles complete.
+}
+
+pacmans() {
+  echo "Installing Pacman Packages..."
+
+}
+
+initialize() {
+  # Todo
+  echo ""
 }
 
 exit 0

@@ -1,0 +1,26 @@
+!SESSION 2019-02-01 22:33:17.227 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -v
+Command-line arguments:  -v
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-02-01 22:33:18.899
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-02-01 22:33:19.019
+!MESSAGE Main thread is waiting
+!SESSION 2019-02-01 22:33:23.522 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --help
+Command-line arguments:  --help
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-02-01 22:33:24.968
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-02-01 22:33:25.059
+!MESSAGE Main thread is waiting
