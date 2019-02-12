@@ -1,4 +1,6 @@
-# Options
+# --------
+# ZSH Options
+# --------
 HISTFILE=~/.config/zsh/.histfile
 HISTSIZE=100000
 SAVEHIST=100000
@@ -21,6 +23,9 @@ autoload -Uz colors; colors
 autoload -Uz select-word-style; select-word-style default
 autoload -Uz compinit; compinit -u
 autoload -Uz vcs_info
+autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
+
+add-zsh-hook chpwd chpwd_recent_dirs
 
 zstyle ':zle:*' word-chars " ,/|=;:@{}"
 zstyle ':zle:*' word-chars unspecified
@@ -38,7 +43,13 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias cl='clear'
 alias ls='ls --color=auto'
+alias la='ls -la --color=auto'
 alias grep='grep --color=auto'
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
+
+source /usr/share/z/z.sh
+source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/fzfscript

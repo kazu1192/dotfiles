@@ -14,4 +14,4 @@ set wrapscan
 inoremap jj <Esc>
 
 syntax on
-colorscheme tender
+colorscheme battlestation

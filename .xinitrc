@@ -47,7 +47,7 @@ export XMODIFIERS="@im=fcitx"
 xset s 7200 7200
 
 # keyRepeat
-xset r rate 255 15
+xset r rate 200 30
 
 # START UP
 ~/.bin/run_xinput &

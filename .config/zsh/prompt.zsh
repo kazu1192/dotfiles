@@ -1,3 +1,7 @@
+# -----------
+# ZSH prompt
+# -----------
+
 # Color
 local DEFAULT=%{$reset_color%}
 local RED=%{$fg[red]%}

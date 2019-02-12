@@ -88,7 +88,7 @@ iptables -A INPUT -p tcp --dport 113 -j REJECT --reject-with tcp-reset
 # 各種サービス設定
 ######################################
 # ssh
-iptables -A INPUT -p tcp --dport 54321 -j ACCEPT
+iptables -A INPUT -p tcp --dport 50132 -j ACCEPT
 
 ######################################
 # その他

@@ -1,4 +1,6 @@
+# ---------------
 # zplug settings
+# ---------------
 
 export ZPLUG_HOME=$HOME/.local/share/zplug
 
@@ -9,17 +11,15 @@ fi
 source $ZPLUG_HOME/init.zsh
 
 zplug "zplug/zplug", hook-build:"zplug --self-manage"
-zplug "mollifier/anyframe"
-zplug "rupa/z", use:"*.sh"
-zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-completions", use:'src/_*', lazy:true
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-autosuggestions", defer:2
 
-if ! zplug check --verbose; then
-  printf 'Install? [y/N]: '
-  if read -q; then
-    echo; zplug install
-  fi
-fi
+#if ! zplug check --verbose; then
+#  printf 'Install? [y/N]: '
+#  if read -q; then
+#    echo; zplug install
+#  fi
+#fi
 
 zplug load

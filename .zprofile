@@ -7,7 +7,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 
 # enyenv
 export PATH=$HOME/.anyenv/bin:$PATH
-eval "$(anyenv init - --no-rehash)"
+eval "$(anyenv init - zsh)"
 
 # rbenv
 #[[ -d ~/.rbenv  ]] && \
@@ -16,6 +16,9 @@ eval "$(anyenv init - --no-rehash)"
 
 # gem
 #export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+
+# fasd
+eval "$(fasd --init auto)"
 
 # fzf
 export FZF_DEFAULT_OPTS='--height 40% --reverse --border'
