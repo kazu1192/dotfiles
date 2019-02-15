@@ -15,7 +15,7 @@ eval "$(anyenv init - zsh)"
 #  eval "$(rbenv init -)"
 
 # gem
-#export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+# export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 
 # fasd
 eval "$(fasd --init auto)"
