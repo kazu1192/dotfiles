@@ -9,14 +9,6 @@ export XDG_CONFIG_HOME=$HOME/.config
 export PATH=$HOME/.anyenv/bin:$PATH
 eval "$(anyenv init - zsh)"
 
-# rbenv
-#[[ -d ~/.rbenv  ]] && \
-#  export PATH=${HOME}/.rbenv/bin:${PATH} && \
-#  eval "$(rbenv init -)"
-
-# gem
-# export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
-
 # fasd
 eval "$(fasd --init auto)"
 

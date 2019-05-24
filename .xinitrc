@@ -57,4 +57,4 @@ fcitx-autostart &
 statnot &
 
 # wm
-exec dwm
+exec i3
