@@ -13,6 +13,7 @@ bluez-utils
 bridge-utils
 bzip2
 cmake
+cmus
 coreutils
 cryptsetup
 device-mapper
@@ -70,6 +71,7 @@ man-pages
 mariadb
 mdadm
 mksh
+moc
 monitoring-plugins
 mpc
 mplayer
@@ -96,6 +98,7 @@ procps-ng
 psmisc
 pulseaudio
 pv
+python-eyed3
 reiserfsprogs
 rofi
 rsnapshot

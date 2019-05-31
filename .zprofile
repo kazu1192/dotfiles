@@ -5,7 +5,7 @@
 # export
 export XDG_CONFIG_HOME=$HOME/.config
 
-# enyenv
+# anyenv
 export PATH=$HOME/.anyenv/bin:$PATH
 eval "$(anyenv init - zsh)"
 
